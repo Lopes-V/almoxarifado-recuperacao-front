@@ -1,7 +1,6 @@
-'use client'
 import Link from "next/link";
 import Image from "next/image";
-import { usePathname } from "next/navigation";
+import usePath
 export default function Header() {
     const pathname = usePathname();
 
@@ -22,8 +21,8 @@ export default function Header() {
                     <span className="text-sm font-bold uppercase tracking-[0.22em] text-zinc-700">Warehouse</span>
                 </Link>
                 <nav className="flex items-center gap-7 text-sm font-semibold">
-                    <Link href="/" className={linkClass("/")}>Painel</Link>
-                    <Link href="/sobre" className={linkClass("/sobre")}>Sobre o sistema</Link>
+                    <Link href="/" className={}>Painel</Link>
+                    <Link href="/sobre" className="text-zinc-600 hover:text-blue-800">Sobre o sistema</Link>
                 </nav>
             </div>
         </div>

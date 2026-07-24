@@ -23,7 +23,7 @@ export default function Header() {
                 </Link>
                 <nav className="flex items-center gap-7 text-sm font-semibold">
                     <Link href="/" className={linkClass("/")}>Painel</Link>
-                    <Link href="/sobre" className={linkClass("/sobre")}>Sobre o sistema</Link>
+                    <Link href="/sobre" className={linkClass("")}>Sobre o sistema</Link>
                 </nav>
             </div>
         </div>
